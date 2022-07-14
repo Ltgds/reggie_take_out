@@ -1,0 +1,15 @@
+package com.item.reggie.service.impl;
+
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.item.reggie.entity.OrderDetail;
+import com.item.reggie.mapper.OrderDetailMapper;
+import com.item.reggie.service.OrderDetailService;
+import org.springframework.stereotype.Service;
+
+/**
+ * @author Li Guotng
+ * @create 2022-07-14 10:55
+ */
+@Service
+public class OrderDetailServiceImpl extends ServiceImpl<OrderDetailMapper, OrderDetail> implements OrderDetailService {
+}
